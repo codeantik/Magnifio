@@ -1,0 +1,70 @@
+* {
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: Lato;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.dashboard-wrap {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 30px;
+  width: 90%;
+}
+.dashboard-head,
+.notification-board,
+.tagged,
+.team-board {
+  color: #000;
+  font-weight: 500;
+}
+
+.dashboard-head {
+  background: aquamarine !important;
+}
+
+.notification-board {
+  background: khaki !important;
+}
+
+.tagged {
+  background: cornflowerblue !important;
+}
+
+.notification-data {
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.dashboard-span {
+  text-align: center;
+  border-radius: 15px;
+  padding: 7px;
+  background-color: azure;
+  font-weight: bolder;
+}
+
+.team-board {
+  background-color: lime !important;
+}
+
+.tag-data {
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.dashboard-btn {
+  background-color: rgb(24, 129, 214) !important;
+  color: white !important;
+}
+

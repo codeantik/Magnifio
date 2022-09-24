@@ -1,0 +1,29 @@
+.modal-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-container .upload-btn {
+    color: white;
+    /* background-color: #007090; */
+    background-color: #676b77;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.css-lxvknm {
+    background-color: #5f636d;
+}
+
+.ant-upload.ant-upload-drag {
+    background-color: #5f636d;
+    color: white;
+}
+
+ant-upload-text {
+    color: white !important;
+}

@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .email-user-logo > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  .email-body-data {
+    margin-top: 4%;
+  }
+  
+  .email-inbox-info {
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 1%;
+    background-color: #565963;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    color: #bcbec9;
+    border: 1px solid #e6e6e6;
+
+    /* /justify-self: center;/ */
+  }
+  
+  
+  .email-sender-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3rem 2.4rem 0.3rem 1.4rem;
+  
+  }
+  .sender-username h5 {
+    width: 100%;
+    overflow: hidden;
+    height: 25px;
+    color: #d1d3dd;
+  }
+  
+  .email-snippets > p {
+    width: 300px;
+    overflow: hidden;
+    height: 25px;
+    text-overflow: ellipsis;
+  }
+
+  .email-subject > p {
+    width: 300px;
+    height: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 17px;
+  }
+  
+  .email-date > p {
+    width: 100%;
+    text-align: left;
+  }
+
+  .chat-categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .chat-categories button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #565963;
+    color: #bcbec9;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .chat-categories button:hover {
+    background-color: #bcbec9;
+    color: #3e4047;
+  }

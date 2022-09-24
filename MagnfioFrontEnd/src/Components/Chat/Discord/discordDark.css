@@ -1,0 +1,36 @@
+.discordWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.discordMessageContainer {
+    height: 100%;
+    background: #2f3136;
+    border: 2px solid #5865f2;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.name, .messageContent, .channelName, .timeStamp {
+    color: #fff;
+    width: 100%;
+    margin: 8px;
+}
+
+.discordMessageContainer .messageContent {
+    background: #2f3136;
+    min-height: 300px;
+}
+
+.channelName, .timeStamp {
+    color: #5865f2;
+}

@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .email-user-logo > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .email-body-data{
+    margin-top: 4%;
+    border: none;
+  }
+  
+  .email-inbox-info{
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 2%;
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    /* /justify-self: center;/ */
+  }
+  
+  
+  .email-sender-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3rem 2.4rem 0.3rem 1.4rem;
+  
+  }
+  .sender-username{
+    width: 100%;
+    overflow: hidden;
+    height: 32px;
+  }
+  
+  .email-snippets > p{
+    width: 300px;
+    overflow: hidden;
+    height: 30px;
+    text-overflow: ellipsis;
+  }
+
+  .email-subject > p {
+    width: 300px;
+    height: 10px;
+    text-overflow: ellipsis;
+    font-size: 17px;
+    color: gray;
+  }

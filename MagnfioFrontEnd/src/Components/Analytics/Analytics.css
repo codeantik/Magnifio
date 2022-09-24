@@ -1,0 +1,20 @@
+h1, p {
+    font-family: Lato;
+}
+
+body{
+    background: whitesmoke !important;
+}
+
+.bk{
+    margin: 20px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 30px;
+}
+
+.card-header{
+    background-color: cornflowerblue !important;
+}
+  

@@ -1,0 +1,51 @@
+POST http://54.174.147.70:8080/api/v1/user/create HTTP/1.1
+content-type: application/json
+
+{
+    "email": "ankit@gmail.com",
+    "full_name": "ankit",
+    "profile_pic": "ankit.jpg"
+}
+
+###
+
+POST http://3.87.73.247:8080/events HTTP/1.1
+content-type: application/json
+
+{
+    "eventId": "1234",
+    "subject": "check the post request",
+    "startTime": "12:00 am",
+    "endTime": "12:00 pm"
+}
+
+###
+
+GET http://54.174.147.70:8080/api/v1/jira/10012 HTTP/1.1
+
+###
+
+GET http://54.174.147.70:8080/api/v1/file/type HTTP/1.1
+
+###
+
+POST http://54.174.147.70:8080/api/v1/file/search HTTP/1.1
+content-type: application/json
+
+{
+    "topic": "Sheet"
+}
+
+###
+
+GET http://54.174.147.70:8080/api/v1/file/views HTTP/1.1
+
+###
+
+GET http://54.174.147.70:8080/api/v1/file/freq-searched HTTP/1.1
+
+###
+
+GET http://52.90.163.49:443/answer HTTP/1.1
+
+

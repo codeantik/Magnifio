@@ -1,0 +1,22 @@
+FROM openjdk:slim
+COPY --from=python:3.9 / /
+
+WORKDIR /service
+
+COPY requirement.txt /service/requirement.txt
+
+RUN pip install --no-cache-dir --upgrade -r /service/requirement.txt
+
+RUN apt-get update
+
+RUN apt-get install -y libsndfile1-dev
+
+RUN python3 -m nltk.downloader stopwords
+
+EXPOSE 80
+
+ADD . /src
+
+WORKDIR /src
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]

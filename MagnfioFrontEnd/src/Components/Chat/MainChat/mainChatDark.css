@@ -1,0 +1,29 @@
+.mainChatCategories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainChatCategories button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #565963;
+    color: #bcbec9;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .mainChatCategories button:hover {
+    background-color: #bcbec9;
+    color: #3e4047;
+  }
+
+  .mainChatResult {
+    height: 100%;
+    width: 100%;
+  }

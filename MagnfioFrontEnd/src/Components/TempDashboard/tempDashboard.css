@@ -1,0 +1,171 @@
+.tempdb-container {
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    margin: 10px;
+}
+
+.tempdb-container h4 {
+    /* background: pink; */
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 15px;
+    text-align: center;
+    color: #3c9295;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.tempdb-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tempdb-right {
+    flex: 1.1;
+    /* background-color: burlywood; */
+    display: flex;
+}
+
+
+.tempdb-left .schedule {
+    margin: 5px;
+    background-color: #eaebed;
+    flex: 2;
+    border-radius: 20px;
+}
+
+.tempdb-left .todolist {
+    margin: 5px;
+    background-color: #eaebed;
+    flex: 1.5;
+    border-radius: 20px;
+}
+
+.tempdb-right .notification-container {
+    margin: 5px;
+    background-color: #eaebed;
+    flex: 1;
+    border-radius: 20px;
+}
+
+.schedule .lines {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-left;
+    margin: 20px auto;
+    /* background-color: brown; */
+}
+
+.lines .line {
+    flex: 1;
+    border-top: 2px solid rgb(197, 193, 193);
+}
+
+.lines .line h6 {
+    min-width: 100px;
+    
+}
+
+.lines .line div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lines .line .txt {
+    background-color: #4a7d99;
+    margin: 20px 150px;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    top: -30px;
+}
+
+.todolist .list {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+    /* background: blue; */
+    flex-wrap: wrap;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #dadae0; */
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+.todo input, .todo label {
+    margin: 5px;
+    padding: 20px;
+}
+
+.todo input {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.todo button {
+    all: none;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    outline: none;
+    min-width: 70px;
+}
+
+.todo button:hover {
+    cursor: pointer;
+}
+
+.todo button:first-of-type {
+    background-color: rgb(212, 49, 49);
+    color: #fff;
+}
+
+.todo button:last-of-type {
+    background-color: rgb(40, 153, 40);
+    color: #fff;
+}
+
+.notification-container {
+    margin: 5px;
+    background-color: #eaebed;
+    flex: 1;
+    border-radius: 20px;
+}
+
+.notification {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.notification div {
+    margin: 5px;
+}
+
+.notification span {
+    color: #a09aaa;
+    font-size: 13px;
+}

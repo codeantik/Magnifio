@@ -1,0 +1,118 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+
+.search-container {
+  /* background: url('../../images/search_bg.png') cover no-repeat; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 130px;
+}
+
+.Search-bar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #676b77;
+  margin: 1.3rem auto 0px auto;
+  border-radius: 5px;
+}
+.Search-bar > input {
+  font-size: 20px;
+  width: 90%;
+  background-color: transparent;
+  outline: none;
+  padding: 25px;
+  border: none;
+  color: white;
+}
+
+.Search-bar > input::placeholder {
+  color: white;
+}
+.Search-bar > input::-webkit-search-cancel-button {
+  color: white !important;
+}
+
+.search-icon {
+  color: white;
+  font-size: 25px !important;
+}
+
+.search-bar-company-logo {
+  width: 100%;
+  padding: 4px;
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  color:#007090;
+  text-align: center;
+}
+
+.search-suggestion-show {
+  width: 60%;
+  /* height: -30vh; */
+  margin: 0px auto;
+  border-radius: 10px;
+  overflow-y: scroll;
+  transition: 0.3s;
+  background: #676b77;
+  animation: notshow 0.3s backwards linear;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@keyframes notshow {
+  100% {
+    height: 0vh;
+  }
+  0% {
+    height: 40vh;
+  }
+}
+
+.search-suggestion {
+  animation: show 0.3s forwards;
+  width: 60%;
+  margin: 0px auto;
+  padding-right: 50px;
+  border-radius: 10px;
+  background: #676b77;
+  /* background: #fff; */
+  /* overflow-y: scroll; */
+  transition: all 0.3s ease;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+@keyframes show {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 40vh;
+  }
+}
+
+/* .filter-option {
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid #adc5c9;
+}
+.filter-option > .option {
+  border-radius: 10px;
+  padding: 13px 20px;
+  background: #eaebed;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+} */

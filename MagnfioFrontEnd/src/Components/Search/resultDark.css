@@ -1,0 +1,56 @@
+.result-container{
+    margin-top:2rem;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    height: 80rem;
+  }
+  
+  .result-container::-webkit-scrollbar{
+    width:3px
+  }
+  .result-container::-webkit-scrollbar-track{
+    width:3px;
+    background: #007090;
+  }
+  .result-container::-webkit-scrollbar-thumb{
+    background: whitesmoke;
+  }
+  .result-list{
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      margin-bottom: 2rem;
+  }
+  
+  .result-list > img{
+    margin-right: 10px;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    border-radius:50%;
+  }
+  .result-title{
+    font-size: 19px;
+    display: block;
+    color: black;
+  }
+  .result-description{
+    font-size:18px;
+    font-weight: 500;
+    display: block;
+    color: #000;
+    /*color: gainsboro;*/
+  }
+  .result-post-timing,.post-user-name{
+    color: gray;
+    font-size: 11px;
+    padding-right: 10px;
+  }
+  .post-user-name{
+    font-weight: 600;
+    font-size:13px;
+    color: grey;
+  }

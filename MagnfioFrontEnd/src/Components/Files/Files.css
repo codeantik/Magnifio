@@ -1,0 +1,15 @@
+.modal-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container .upload-btn {
+    color: white;
+    background-color: #007090;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
